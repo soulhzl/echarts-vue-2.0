@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('iconfont.woff?t=1614071971158') format('woff');
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
