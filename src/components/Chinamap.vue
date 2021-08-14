@@ -54,7 +54,8 @@ export default {
       // 初始化echarts实例
       this.mychart = this.echarts.init(this.$refs.map, this.theme);
       // 获取地图数据
-      const res = await axios.get("/echarts/map/china.json");
+      // const res = await axios.get("/echarts/map/china.json");
+      const res = await axios.get("/map/china.json");
       // 注册地图
       this.echarts.registerMap("china", res.data);
       const initOption = {
